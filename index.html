@@ -1,7 +1,6 @@
 <head>
 <title>Photos from Asheville</title>
 <link rel="stylesheet" href="css/styles.css" />
-<link rel="stylesheet" href="css/featherlight.min.css" />
 
 </head>
 
@@ -10,7 +9,7 @@
 <div class="container">
  <div class="row">
   <div class="column">
-    <a href="/images/1.png" data-featherlight="image"><img src="/images/1-t.png"></a>
+    <a href="#/" class="lightbox-toggle"><img src="/images/1-t.png"></a>
     <img src="/images/2-t.png">
     <img src="/images/3-t.png">
   </div>
@@ -20,18 +19,28 @@
     <img src="/images/6-t.png">
   </div>
   <div class="column">
-    <img src="/images/7-t.png" onclick="openModal();currentSlide(7)" class="hover-shadow">
-    <img src="/images/8-t.png" onclick="openModal();currentSlide(8)" class="hover-shadow">
-    <img src="/images/9-t.png" onclick="openModal();currentSlide(9)" class="hover-shadow">
+    <img src="/images/7-t.png">
+    <img src="/images/8-t.png">
+    <img src="/images/9-t.png">
   </div>
   <div class="column">
-    <img src="/images/10-t.png" onclick="openModal();currentSlide(10)" class="hover-shadow">
-    <img src="/images/11-t.png" onclick="openModal();currentSlide(11)" class="hover-shadow">
-    <img src="/images/12-t.png" onclick="openModal();currentSlide(12)" class="hover-shadow">
+    <img src="/images/10-t.png">
+    <img src="/images/11-t.png">
+    <img src="/images/12-t.png">
   </div>
  </div>
  </div>
 
-<script src="//code.jquery.com/jquery-latest.js"></script>
-<script src="//cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
- </body>
+ <div class="backdrop"></div>
+ <div class="box">
+   <div class="close" id="firstpic">
+     <p style="vertical-align: top; text-align:right; font-size:25px"><strong>x</strong></p>
+   </div>
+ </div>
+
+ <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="js/lightbox.js"></script>
+</body>
