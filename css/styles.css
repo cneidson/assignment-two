@@ -59,8 +59,8 @@ height:75%;
   background-size: cover;
  background-repeat: no-repeat;
  background-position: top left;
-height:30rem;
-width: 45rem;
+min-height:80vh;
+min-width: 60vw;
 }
 
 #secondpic {
