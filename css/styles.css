@@ -1,5 +1,5 @@
 body {
-  background-image: url("photo.png");
+  background-image: url("https://raw.githubusercontent.com/cneidson/assignment-two/master/images/photo.png");
   background-size: cover;
   text-align: center;
   color: white;
@@ -53,7 +53,7 @@ width:85%;
 }
 
 #firstpic {
-  background-image: url("1.png");
+  background-image: url("https://raw.githubusercontent.com/cneidson/assignment-two/master/images/1.png");
   background-size: cover;
  background-repeat: no-repeat;
  background-position: top left;
@@ -101,7 +101,6 @@ width: 45rem;
     }
 
     .close {
-        float: right;
         cursor: pointer;
     }
 }
