@@ -17,6 +17,7 @@ font-size:26px;
 margin: auto;
 text-align: center;
 width:85%;
+height:75%;
 }
 
 /* Flex Grid from tutorial at W3Schools */
@@ -30,6 +31,7 @@ width:85%;
   flex: 25%;
   max-width: 25%;
   padding: 0 4px;
+  box-sizing: border-box;
 }
 
 .column img {
@@ -61,13 +63,114 @@ height:30rem;
 width: 45rem;
 }
 
+#secondpic {
+  background-image: url("https://raw.githubusercontent.com/cneidson/assignment-two/master/images/2.png");
+  background-size: cover;
+ background-repeat: no-repeat;
+ background-position: top left;
+height:30rem;
+width: 45rem;
+}
+
+#thirdpic {
+  background-image: url("https://raw.githubusercontent.com/cneidson/assignment-two/master/images/3.png");
+  background-size: cover;
+ background-repeat: no-repeat;
+ background-position: top left;
+height:30rem;
+width: 45rem;
+}
+
+
+#fourthpic {
+  background-image: url("https://raw.githubusercontent.com/cneidson/assignment-two/master/images/4.png");
+  background-size: cover;
+ background-repeat: no-repeat;
+ background-position: top left;
+height:30rem;
+width: 45rem;
+}
+
+#fifthpic {
+  background-image: url("https://raw.githubusercontent.com/cneidson/assignment-two/master/images/5.png");
+  background-size: cover;
+ background-repeat: no-repeat;
+ background-position: top left;
+height:30rem;
+width: 45rem;
+}
+
+#sixthpic {
+  background-image: url("https://raw.githubusercontent.com/cneidson/assignment-two/master/images/6.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+  height:30rem;
+  width: 45rem;
+}
+
+#seventhpic {
+  background-image: url("https://raw.githubusercontent.com/cneidson/assignment-two/master/images/7.png");
+  background-size: cover;
+ background-repeat: no-repeat;
+ background-position: top left;
+height:30rem;
+width: 45rem;
+}
+
+#eightpic {
+  background-image: url("https://raw.githubusercontent.com/cneidson/assignment-two/master/images/8.png");
+  background-size: cover;
+ background-repeat: no-repeat;
+ background-position: top left;
+height:30rem;
+width: 45rem;
+}
+
+#ninthpic {
+  background-image: url("https://raw.githubusercontent.com/cneidson/assignment-two/master/images/9.png");
+  background-size: cover;
+ background-repeat: no-repeat;
+ background-position: top left;
+height:30rem;
+width: 45rem;
+}
+
+#tenthpic {
+  background-image: url("https://raw.githubusercontent.com/cneidson/assignment-two/master/images/10.png");
+  background-size: cover;
+ background-repeat: no-repeat;
+ background-position: top left;
+height:30rem;
+width: 45rem;
+}
+
+#eleventhpic {
+  background-image: url("https://raw.githubusercontent.com/cneidson/assignment-two/master/images/11.png");
+  background-size: cover;
+ background-repeat: no-repeat;
+ background-position: top left;
+height:30rem;
+width: 45rem;
+}
+
+#twelfthpic {
+  background-image: url("https://raw.githubusercontent.com/cneidson/assignment-two/master/images/12.png");
+  background-size: cover;
+ background-repeat: no-repeat;
+ background-position: top left;
+height:30rem;
+width: 45rem;
+}
+
+
 /* Simple Jquery lightbox from  codepen dot io backlash jjimih */
 
-.lightbox-toggle {
+#lightbox-toggle {
   color: black;
 }
 
-.backdrop {
+#backdrop {
     z-index: 1;
     opacity: .8;
     filter: alpha(opacity=0);
@@ -80,7 +183,7 @@ width: 45rem;
     background: #000;
 }
 
-.box {
+#box {
     z-index: 2;
     position: fixed;
     opacity: 1;
@@ -91,16 +194,414 @@ width: 45rem;
     width: auto;
     height: auto;
     padding: 20px;
-    border-radius: 5px;
-    -moz-box-shadow: 0px 0px 5px #444444;
-    -webkit-box-shadow: 0px 0px 5px #444444;
-    box-shadow: 0px 0px 5px #444444;
+
+    * {
+        z-index: 3;
+    }
+}
+
+/* Second Photo */
+
+#lightbox-toggle2 {
+  color: black;
+}
+
+#backdrop2 {
+    z-index: 1;
+    opacity: .8;
+    filter: alpha(opacity=0);
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+
+#box2 {
+    z-index: 2;
+    position: fixed;
+    opacity: 1;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: auto;
+    padding: 20px;
+
+    * {
+        z-index: 3;
+    }
+}
+
+
+/* Third Photo */
+
+#lightbox-toggle3 {
+  color: black;
+}
+
+#backdrop3 {
+    z-index: 1;
+    opacity: .8;
+    filter: alpha(opacity=0);
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+
+#box3 {
+    z-index: 2;
+    position: fixed;
+    opacity: 1;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: auto;
+    padding: 20px;
+
+    * {
+        z-index: 3;
+    }
+}
+
+
+
+/* Fourth photo */
+
+#lightbox-toggle4 {
+  color: black;
+}
+
+#backdrop4 {
+    z-index: 1;
+    opacity: .8;
+    filter: alpha(opacity=0);
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+
+#box4 {
+    z-index: 2;
+    position: fixed;
+    opacity: 1;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: auto;
+    padding: 20px;
+
+    * {
+        z-index: 3;
+    }
+}
+
+/* Fifth photo */
+
+#lightbox-toggle5 {
+  color: black;
+}
+
+#backdrop5 {
+    z-index: 1;
+    opacity: .8;
+    filter: alpha(opacity=0);
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+
+#box5 {
+    z-index: 2;
+    position: fixed;
+    opacity: 1;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: auto;
+    padding: 20px;
+
+    * {
+        z-index: 3;
+    }
+}
+
+
+/* Sixth photo */
+
+#lightbox-toggle6 {
+  color: black;
+}
+
+#backdrop6 {
+    z-index: 1;
+    opacity: .8;
+    filter: alpha(opacity=0);
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+
+#box6 {
+    z-index: 2;
+    position: fixed;
+    opacity: 1;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: auto;
+    padding: 20px;
+
+    * {
+        z-index: 3;
+    }
+}
+
+/* Seventh photo */
+
+#lightbox-toggle7 {
+  color: black;
+}
+
+#backdrop7 {
+    z-index: 1;
+    opacity: .8;
+    filter: alpha(opacity=0);
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+
+#box7 {
+    z-index: 2;
+    position: fixed;
+    opacity: 1;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: auto;
+    padding: 20px;
 
     * {
         z-index: 3;
     }
 
-    .close {
-        cursor: pointer;
+}
+
+/* Eight photo */
+#lightbox-toggle8 {
+  color: black;
+}
+
+#backdrop8 {
+    z-index: 1;
+    opacity: .8;
+    filter: alpha(opacity=0);
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+
+#box8 {
+    z-index: 2;
+    position: fixed;
+    opacity: 1;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: auto;
+    padding: 20px;
+
+    * {
+        z-index: 3;
     }
+
+}
+
+/* Ninth photo */
+
+#lightbox-toggle9 {
+  color: black;
+}
+
+#backdrop9 {
+    z-index: 1;
+    opacity: .8;
+    filter: alpha(opacity=0);
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+
+#box9 {
+    z-index: 2;
+    position: fixed;
+    opacity: 1;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: auto;
+    padding: 20px;
+
+    * {
+        z-index: 3;
+    }
+
+}
+
+/* Tenth photo */
+
+#lightbox-toggle10 {
+  color: black;
+}
+
+#backdrop10 {
+    z-index: 1;
+    opacity: .8;
+    filter: alpha(opacity=0);
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+
+#box10 {
+    z-index: 2;
+    position: fixed;
+    opacity: 1;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: auto;
+    padding: 20px;
+
+    * {
+        z-index: 3;
+    }
+
+}
+
+/* Eleventh photo */
+
+#lightbox-toggle11 {
+  color: black;
+}
+
+#backdrop11 {
+    z-index: 1;
+    opacity: .8;
+    filter: alpha(opacity=0);
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+
+#box11 {
+    z-index: 2;
+    position: fixed;
+    opacity: 1;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: auto;
+    padding: 20px;
+
+    * {
+        z-index: 3;
+    }
+
+}
+
+
+/* Twelfth photo */
+
+#lightbox-toggle12 {
+  color: black;
+}
+
+#backdrop12 {
+    z-index: 1;
+    opacity: .8;
+    filter: alpha(opacity=0);
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+
+#box12 {
+    z-index: 2;
+    position: fixed;
+    opacity: 1;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: auto;
+    padding: 20px;
+
+    * {
+        z-index: 3;
+    }
+
 }
